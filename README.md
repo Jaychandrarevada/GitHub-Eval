@@ -1,60 +1,16 @@
-# GitHub-Eval 🚀
+# React + Vite
 
-GitHub-Eval is an **AI-powered GitHub repository evaluation platform** that analyzes any public GitHub repository and provides:
-- A quality score
-- Project maturity level
-- AI-generated summary
-- Personalized improvement roadmap
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The system uses a **Gemini LLM** for intelligent analysis and is built with a modern **React + FastAPI** architecture.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🔍 Features
+## React Compiler
 
-- 🔗 Paste any public GitHub repository URL
-- 🤖 AI-based repository evaluation using Gemini
-- 📊 Score-based quality assessment (0–100)
-- 🧠 Intelligent summary of the codebase
-- 🛠 Personalized roadmap for improvement
-- 🎨 Modern, responsive React UI
-- ☁️ Fully deployed (Frontend + Backend)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🧱 Tech Stack
-
-### Frontend
-- React (Vite)
-- JavaScript
-- Modern CSS (Glassmorphism UI)
-- Deployed on **Vercel**
-
-### Backend
-- FastAPI (Python)
-- Gemini LLM API
-- REST API architecture
-- Deployed on **Render**
-
----
-
-## ⚙️ Project Structure
-
-GitHub-Eval/
-├── backend/
-│ ├── main.py
-│ ├── ai_engine.py
-│ ├── requirements.txt
-│ └── start.sh
-│
-├── frontend-react/
-│ ├── src/
-│ ├── index.html
-│ ├── vite.config.js
-│ └── package.json
-│
-└── README.md
-
-
-
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
