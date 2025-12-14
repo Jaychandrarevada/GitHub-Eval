@@ -40,3 +40,21 @@ The system uses a **Gemini LLM** for intelligent analysis and is built with a mo
 
 ## ⚙️ Project Structure
 
+GitHub-Eval/
+├── backend/
+│ ├── main.py
+│ ├── ai_engine.py
+│ ├── requirements.txt
+│ └── start.sh
+│
+├── frontend-react/
+│ ├── src/
+│ ├── index.html
+│ ├── vite.config.js
+│ └── package.json
+│
+└── README.md
+
+
+
+
