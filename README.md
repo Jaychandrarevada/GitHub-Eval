@@ -1,38 +1,42 @@
-<<<<<<< HEAD
-# GitHub-Eval
-An Intelligent system that evaluates the Github repo's using the link and provides score,summary and roadmap
-=======
 # GitHub-Eval 🚀
 
-**GitHub-Eval** is an AI-powered system that evaluates GitHub repositories the way a recruiter or mentor would.
+GitHub-Eval is an **AI-powered GitHub repository evaluation platform** that analyzes any public GitHub repository and provides:
+- A quality score
+- Project maturity level
+- AI-generated summary
+- Personalized improvement roadmap
 
-## 🔍 What It Does
-- Accepts a public GitHub repository URL
-- Analyzes code quality, structure, documentation, and activity
-- Generates:
-  - 📊 Score & skill level
-  - ✍️ Recruiter-style summary
-  - 🛣️ Personalized improvement roadmap
+The system uses a **Gemini LLM** for intelligent analysis and is built with a modern **React + FastAPI** architecture.
 
-## 🧠 How It Works
-1. Fetches repository metadata using GitHub API
-2. Uses an AI-first evaluation engine (OpenAI)
-3. Falls back to a metric-based evaluator if API quota is exceeded
-4. Displays results in a clean UI
+---
 
-## ⚙️ Tech Stack
-- Backend: Python, FastAPI
-- AI: OpenAI (with fallback logic)
-- Frontend: HTML, CSS, JavaScript
-- APIs: GitHub REST API
+## 🔍 Features
 
-## 🏆 Why This Is Different
-- Honest, data-driven feedback
-- AI mentor-style guidance
-- Production-safe fallback design
+- 🔗 Paste any public GitHub repository URL
+- 🤖 AI-based repository evaluation using Gemini
+- 📊 Score-based quality assessment (0–100)
+- 🧠 Intelligent summary of the codebase
+- 🛠 Personalized roadmap for improvement
+- 🎨 Modern, responsive React UI
+- ☁️ Fully deployed (Frontend + Backend)
 
-## ▶️ Run Locally
-```bash
-cd backend
-python -m uvicorn main:app --reload
->>>>>>> 9aa1d0f (Initial commit - GitHub-Eval full stack)
+---
+
+## 🧱 Tech Stack
+
+### Frontend
+- React (Vite)
+- JavaScript
+- Modern CSS (Glassmorphism UI)
+- Deployed on **Vercel**
+
+### Backend
+- FastAPI (Python)
+- Gemini LLM API
+- REST API architecture
+- Deployed on **Render**
+
+---
+
+## ⚙️ Project Structure
+
