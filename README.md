@@ -76,13 +76,13 @@ GitHub-Eval/
 
 ## 🌐 Live Deployment
 
-- **Frontend (Vercel):** _To be added_
-- **Backend (Render):** _To be added_
-
+- **Frontend (Vercel):https://git-hub-eval.vercel.app/
+- **Backend (Render):https://github-eval.onrender.com
 ---
 
 ## 🛡 Environment Variables
 
 ### Backend
+
 
 
